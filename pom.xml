@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ximalaya.glue</groupId>
+    <groupId>org.lqk.glue</groupId>
     <artifactId>glue</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
@@ -124,7 +124,7 @@
             </dependency>
 
             <dependency>
-                <groupId>com.ximalaya.glue</groupId>
+                <groupId>org.lqk.glue</groupId>
                 <artifactId>glue-core</artifactId>
                 <version>${glue.version}</version>
             </dependency>
