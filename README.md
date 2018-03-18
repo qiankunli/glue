@@ -63,7 +63,7 @@ glue即为胶水的意思，意图就是将分散在各个位置的代码按配�
 
 3. spring 配置文件
 
-        <bean class="com.ximalaya.glue.GlueBeanPostProcessor"/>
+        <bean class="com.lqk.glue.GlueBeanPostProcessor"/>
 
 
 
@@ -93,7 +93,7 @@ glue即为胶水的意思，意图就是将分散在各个位置的代码按配�
 
 当下
 
-     <bean class="com.ximalaya.glue.GlueBeanPostProcessor"/>
+     <bean class="org.lqk.glue.GlueBeanPostProcessor"/>
 
 期待
 
