@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.lqk.glue</groupId>
+    <groupId>com.ximalaya.glue</groupId>
     <artifactId>glue</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
@@ -124,7 +124,7 @@
             </dependency>
 
             <dependency>
-                <groupId>org.lqk.glue</groupId>
+                <groupId>com.ximalaya.glue</groupId>
                 <artifactId>glue-core</artifactId>
                 <version>${glue.version}</version>
             </dependency>
@@ -359,4 +359,18 @@
             </extension>
         </extensions>
     </build>
+    <distributionManagement>
+        <!-- use the following if you're not using a snapshot version. -->
+        <repository>
+            <id>artifactory</id>
+            <name>ximalaya-releases</name>
+            <url>http://artifactory.ximalaya.com/artifactory/ximalaya-releases/</url>
+        </repository>
+        <!-- use the following if you ARE using a snapshot version. -->
+        <snapshotRepository>
+            <id>artifactory</id>
+            <name>ximalaya-snapshots</name>
+            <url>http://artifactory.ximalaya.com/artifactory/ximalaya-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
